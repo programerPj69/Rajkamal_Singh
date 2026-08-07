@@ -11,13 +11,12 @@ const Intro = () => {
                         <h1 data-aos='fade-down' data-aos-offset="0">H<span>ello</span>.</h1>
                     </div>
                     <div className="about-intro__description">
-                        <p data-aos='fade-right' >I am <span>Rajkamal Singh</span></p>
-                        <p data-aos='fade-right' data-aos-delay='200'>I enjoy building websites and always enthusiastic about creating new front-end features.</p>
-                        <p data-aos='fade-right' data-aos-delay='400'>Passionate front-end Developer with more than 1.5 years of experience in developing highly adaptive and responsive websites using React and Vue.</p>
-                        <p data-aos='fade-right' data-aos-delay='600'>I also have basic understanding of server side development using Node.js, Angular.js, React and MongoDB</p>
+                        <p data-aos='fade-right' >I am <span>Rajkamal Singh</span> (@mrCoderPj04)</p>
+                        <p data-aos='fade-right' data-aos-delay='200'>Senior AI Engineer & Full-Stack Systems Engineer based in Chamoli, Uttarakhand, India 🇮🇳.</p>
+                        <p data-aos='fade-right' data-aos-delay='400'>Passionate developer with 3+ years of experience architecting high-performance web applications, scalable microservices, and AI integrations.</p>
+                        <p data-aos='fade-right' data-aos-delay='600'>Proficient across full-stack MERN (MongoDB, Express, React, Node.js), Next.js, C/C++, Java, Python, SQL, REST APIs, and WebSockets.</p>
                         
-
-                        <div className="about-intro__emoji">:&nbsp;)</div>
+                        <div className="about-intro__emoji">🚀</div>
                     </div>
                 </div>
             </div>

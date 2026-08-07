@@ -16,9 +16,9 @@ const Graduation = () => {
                     </div>
 
                     <div className="graduation__description">
-                        <h1>VMSBUTU</h1>
-                        <h2><FontAwesomeIcon icon={faCalendarDays} className="internships__calendar" />&nbsp;&nbsp;01/07/2020 - 1/07/2024</h2>
-                        <p>Pursued B.Tech in Computer Science Engineering from VMSBUTU.</p>
+                        <h1>Veer Madho Singh Bhandari Uttarakhand Technical University (VMSBUTU)</h1>
+                        <h2><FontAwesomeIcon icon={faCalendarDays} className="internships__calendar" />&nbsp;&nbsp;2020 - 2024</h2>
+                        <p>Completed Bachelor of Technology (B.Tech) in Computer Science & Engineering, gaining strong foundations in software engineering, algorithms, database systems, and artificial intelligence.</p>
                     </div>
                 </div>
             </div>

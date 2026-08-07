@@ -88,8 +88,7 @@ const About = () => {
                   H<span>ello,</span>
                 </h2>
                 <p>
-                  I am <span>Rajkamal.</span> <br /> Highly passoinate
-                  FullStack Deeveloper with 3 year of experience
+                  I am <span>Rajkamal Singh.</span> <br /> Senior AI Engineer & Full-Stack Developer with 3+ years of experience.
                 </p>
               </Link>
             </div>
@@ -108,10 +107,8 @@ const About = () => {
                   E<span>xperience</span>
                 </h2>
                 <p>
-                  <span>3 Year of experience.</span>
-                  <br />I have more than 3 years of experience in developing
-                  highly responsive FullStack websites using Next.js , AngularJS, React and  nodeJs .
-                  
+                  <span>3+ Years of Experience.</span>
+                  <br />Extensive experience in developing enterprise web applications, AI integrations, microservices, Next.js, React, Node.js, Java, and Python.
                 </p>
               </Link>
             </div>
@@ -137,10 +134,10 @@ const About = () => {
                     <span>Crossover</span> - Front-end Developer{" "}
                   </li>
                   <li>
-                    <span>TCS</span> - FullStack Deeveloper{" "}
+                    <span>TCS iON</span> - FullStack Developer{" "}
                   </li>
                   <li>
-                    <span>Wipro</span> - Java Deeveloper{" "}
+                    <span>Wipro</span> - Java Developer{" "}
                   </li>
                 </ul>
               </Link>
@@ -160,9 +157,9 @@ const About = () => {
                   E<span>ngineering</span>
                 </h2>
                 <p>
-                  <span>Veer Madho Singh Bhandari Uttarakhand Technical University </span>
+                  <span>Veer Madho Singh Bhandari Uttarakhand Technical University (VMSBUTU)</span>
                   <br />
-                   This academic journey is equipping him with in-depth knowledge of software development, programming languages, algorithms, and emerging technologies, preparing him for a dynamic career in the tech industry.
+                  B.Tech in Computer Science & Engineering (2020 - 2024), equipping strong technical expertise in software engineering, algorithms, and AI systems.
                 </p>
               </Link>
             </div>

@@ -1,74 +1,117 @@
-# Getting Started with Create React App
+<div align="center">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  <a href="https://github.com/mrCoderPj04">
+    <img src="https://github.com/mrCoderPj04.png" width="140" height="140" style="border-radius: 50%; border: 4px solid #00ffff; box-shadow: 0 0 25px rgba(0, 255, 255, 0.6);" alt="Rajkamal Singh Avatar" />
+  </a>
 
-## Available Scripts
+  # 🚀 Rajkamal Singh — Personal Portfolio
 
-In the project directory, you can run:
+  <p align="center">
+    <b>Senior AI Engineer & Full-Stack Developer</b><br/>
+    📍 Chamoli, Uttarakhand, India 🇮🇳 &nbsp;|&nbsp; ✉️ <a href="mailto:mrcoder04@outlook.com">mrcoder04@outlook.com</a>
+  </p>
 
-### `npm start`
+  <p align="center">
+    <a href="https://github.com/mrCoderPj04"><img src="https://img.shields.io/badge/GitHub-mrCoderPj04-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
+    <a href="https://www.linkedin.com/in/rajkamal-singh-8693aa2b3/"><img src="https://img.shields.io/badge/LinkedIn-Rajkamal_Singh-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+    <a href="https://api.web3forms.com"><img src="https://img.shields.io/badge/Contact_Form-Web3Forms-00FFFF?style=for-the-badge&logo=fastapi&logoColor=black" /></a>
+  </p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+</div>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 📖 Overview
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Welcome to the personal developer portfolio of **Rajkamal Singh** ([@mrCoderPj04](https://github.com/mrCoderPj04)). This portfolio highlights open-source repositories, engineering background, skill set, internships, and dynamic GitHub integration.
 
-### `npm run build`
+### ✨ Key Features
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- 👤 **Dynamic GitHub Avatar Integration**: Real-time profile picture sync direct from GitHub (`https://github.com/mrCoderPj04.png`).
+- 📁 **Categorized GitHub Repositories**: Filter GitHub projects by category:
+  - 🌐 *Full-Stack & Web* (`JourneyJunction`, `Be_fit`, `PjStream`, `PJSOFONIC`, `Sofo_SyC`, `Sofo_learning`)
+  - 📊 *Dashboards & ERP* (`PjDashConnect`, `pjsofonic-ms-dashboard`, `PJSPFPNIC_erp`)
+  - 🐍 *Python & AI* (`billl_recipt_genrstor_pyPro`)
+  - ☕ *Java & Systems* (`App-03`, `My-cpp-code`)
+  - 🎨 *UI & Utilities* (`img-editor`, `Chat-box`, `AboutCard`)
+- 📨 **Fully Functional Web3Forms Contact Form**: Direct email delivery using Web3Forms API key (`640155b4-8d22-4643-9df3-b2ce27e7564d`) with loading states and success notifications.
+- ⚡ **Responsive Modern UI**: Neon dark theme, smooth micro-animations (AOS), glassmorphism design, and 3D skill cloud sphere (TagCloud).
+- 🌐 **Netlify Production Ready**: Includes `_redirects` and `netlify.toml` for Single Page Application (SPA) routing.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🛠️ Tech Stack
 
-### `npm run eject`
+- **Frontend**: React 18, React Router v6, Sass/SCSS, FontAwesome Icons, TagCloud 3D, AOS (Animate on Scroll)
+- **Styling**: SCSS / BEM Methodology, HSL Modern Color Tokens
+- **Email Service**: Web3Forms API (`640155b4-8d22-4643-9df3-b2ce27e7564d`)
+- **Deployment & Hosting**: Netlify / Vercel Ready
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 💻 Local Development Setup
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Follow these steps to run the application locally:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### 1. Clone Repository
+```bash
+git clone https://github.com/mrCoderPj04/RajkamalSingh.git
+cd RajkamalSingh
+```
 
-## Learn More
+### 2. Install Dependencies
+```bash
+npm install
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### 3. Start Development Server
+```bash
+npm start
+```
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### 4. Build Production Bundle
+```bash
+npm run build
+```
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 🌐 Netlify Deployment Guide
 
-### Analyzing the Bundle Size
+This project is pre-configured with `netlify.toml` and `public/_redirects` for instant deployment on Netlify.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Option A: Deploy via Netlify CLI
+```bash
+# Install Netlify CLI globally
+npm install -g netlify-cli
 
-### Making a Progressive Web App
+# Login and deploy
+netlify login
+netlify deploy --build
+netlify deploy --prod
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Option B: Deploy via Netlify Web Dashboard
+1. Log in to [Netlify](https://app.netlify.com/).
+2. Click **"Add new site"** ➔ **"Import an existing project"**.
+3. Connect your GitHub account and select repository: `mrCoderPj04/RajkamalSingh`.
+4. Build Settings (Auto-configured via `netlify.toml`):
+   - **Build command**: `npm run build`
+   - **Publish directory**: `build`
+5. Click **"Deploy Site"**.
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 📬 Contact & Socials
 
-### Deployment
+- ✉️ **Email**: [mrcoder04@outlook.com](mailto:mrcoder04@outlook.com) / [rajkamalsingh6959@gmail.com](mailto:rajkamalsingh6959@gmail.com)
+- 🐙 **GitHub**: [github.com/mrCoderPj04](https://github.com/mrCoderPj04)
+- 💼 **LinkedIn**: [linkedin.com/in/rajkamal-singh-8693aa2b3](https://www.linkedin.com/in/rajkamal-singh-8693aa2b3/)
+- 📍 **Location**: Dogari Kandai PO Tangsha, Chamoli, Uttarakhand 246401 🇮🇳
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# Rajkamal_Singh
-![logo](view/view1.png)
-![testimg](view/view.png)
-
+<p align="center">
+  <i>"Whatever you are doing, do it with absolute dedication and silently; just watch - one day you will become the owner of your dream."</i>
+</p>

@@ -17,42 +17,38 @@ const Experience = () => {
                     <div className="experience__description">
                         <div className="experience__main-box">
                             <div className="experience__box">
-                                <h2>XYZ Pvt Ltd</h2>
-                                <h3><FontAwesomeIcon icon={faCalendarDays} className="experience__calendar" />&nbsp; &nbsp;01/06/2022 - PRESENT</h3>
+                                <h2>Senior AI & Full-Stack Engineer</h2>
+                                <h3><FontAwesomeIcon icon={faCalendarDays} className="experience__calendar" />&nbsp; &nbsp;2021 - PRESENT</h3>
                                 <ul>
-                                    <p>Responsible for -</p>
+                                    <p>Responsibilities & Key Highlights -</p>
                                     <li data-aos='fade-right' data-aos-delay='200'>
-                                        <span>Developing multiple highly responsive and adaptive website using React and Vue</span>
+                                        <span>Designing & developing enterprise web applications using MERN (MongoDB, Express, React, Node.js), Next.js, and Python.</span>
                                     </li>
                                     <li data-aos='fade-right' data-aos-delay='400'>
-                                        <span>Developing new user-facing features</span>
+                                        <span>Architecting high-performance microservices, REST APIs, gRPC, and real-time WebSockets logic.</span>
                                     </li>
                                     <li data-aos='fade-right' data-aos-delay='600'>
-                                        <span>Building reusable code</span>
+                                        <span>Integrating AI/ML models and automated data visualization pipelines into interactive dashboards.</span>
                                     </li>
                                     <li data-aos='fade-right' data-aos-delay='800'>
-                                        <span>Add few more lines...</span>
+                                        <span>Optimizing database schemas and server logic across SQL, MongoDB, and Redis.</span>
                                     </li>
                                 </ul>
                             </div>
 
-                            {/* You can put this repeated code as a child component similar to internship.js  */}
                             <div className="experience__box">
-                                <h2>XYZ Pvt Ltd</h2>
-                                <h3><FontAwesomeIcon icon={faCalendarDays} className="experience__calendar" />&nbsp; &nbsp;01/06/2022 - PRESENT</h3>
+                                <h2>Software & Systems Engineering</h2>
+                                <h3><FontAwesomeIcon icon={faCalendarDays} className="experience__calendar" />&nbsp; &nbsp;2020 - 2024</h3>
                                 <ul>
-                                    <p>Responsible for -</p>
-                                    <li data-aos='fade-right' data-aos-delay='200' data-aos-offset="-5000">
-                                        <span>Developing multiple highly responsive and adaptive website using React and Vue</span>
+                                    <p>Responsibilities & Achievements -</p>
+                                    <li data-aos='fade-right' data-aos-delay='200'>
+                                        <span>Developed open-source web platforms, image editors, fitness trackers, and receipt generator utilities.</span>
                                     </li>
-                                    <li data-aos='fade-right' data-aos-delay='400' data-aos-offset="-5000">
-                                        <span>Developing new user-facing features</span>
+                                    <li data-aos='fade-right' data-aos-delay='400'>
+                                        <span>Mastered C/C++, Java, Python, JavaScript, and TypeScript software engineering paradigms.</span>
                                     </li>
-                                    <li data-aos='fade-right' data-aos-delay='600' data-aos-offset="-5000">
-                                        <span>Building reusable code</span>
-                                    </li>
-                                    <li data-aos='fade-right' data-aos-delay='800' data-aos-offset="-5000">
-                                        <span>Add few more lines...</span>
+                                    <li data-aos='fade-right' data-aos-delay='600'>
+                                        <span>Collaborated on multi-developer repositories utilizing Git, Docker, and CI/CD pipelines.</span>
                                     </li>
                                 </ul>
                             </div>

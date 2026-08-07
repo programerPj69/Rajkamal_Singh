@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 import '../../styles/Works/Works.scss';
 
@@ -8,6 +8,23 @@ import data from '../../data';
 import ProjectCard from '../ProjectCard';
 
 const Works = () => {
+  const [selectedCategory, setSelectedCategory] = useState('All');
+
+  const categories = data.portfolio.projectCard.categories || [
+    'All',
+    'Full-Stack / Web',
+    'Python & AI',
+    'Java / C++',
+    'Mobile & Utilities',
+  ];
+
+  const filteredProjects =
+    selectedCategory === 'All'
+      ? data.portfolio.projectCard.cards
+      : data.portfolio.projectCard.cards.filter(
+          (project) => project.category === selectedCategory
+        );
+
   return (
     <>
       <div className="works" id="work">
@@ -57,12 +74,35 @@ const Works = () => {
                 .
               </span>
             </h1>
-            <p></p>
           </div>
+
+          {/* Category Filter Tabs with Repo Count */}
+          <div className="works__categories" data-aos="fade-up" data-aos-delay="200">
+            {categories.map((cat) => {
+              const count =
+                cat === 'All'
+                  ? data.portfolio.projectCard.cards.length
+                  : data.portfolio.projectCard.cards.filter(
+                      (p) => p.category === cat
+                    ).length;
+
+              return (
+                <button
+                  key={cat}
+                  className={`works__category-btn ${
+                    selectedCategory === cat ? 'works__category-btn--active' : ''
+                  }`}
+                  onClick={() => setSelectedCategory(cat)}
+                >
+                  {cat} <span style={{ opacity: 0.8, fontSize: '0.85em', marginLeft: '4px' }}>({count})</span>
+                </button>
+              );
+            })}
+          </div>
+
           <div className="works__grid">
             <div className="works__grid-container">
-              {data.portfolio.projectCard.cards.map((content) => (
-                // Each project cards 
+              {filteredProjects.map((content) => (
                 <ProjectCard key={content.heading} cardContent={content} />
               ))}
             </div>
@@ -74,3 +114,4 @@ const Works = () => {
 };
 
 export default Works;
+

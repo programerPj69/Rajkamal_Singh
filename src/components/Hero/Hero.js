@@ -1,13 +1,27 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 
 import '../../styles/Hero/Hero.scss';
-
 import Myself from '../../assets/images/myself.png';
 
 const Hero = () => {
+  const [avatarUrl, setAvatarUrl] = useState('https://github.com/mrCoderPj04.png');
+
   useEffect(() => {
+    // Dynamic GitHub profile picture fetch so changes on GitHub instantly update here!
+    fetch('https://api.github.com/users/mrCoderPj04')
+      .then((res) => res.json())
+      .then((data) => {
+        if (data && data.avatar_url) {
+          setAvatarUrl(data.avatar_url);
+        }
+      })
+      .catch(() => {
+        // Fallback to github.com redirect URL
+        setAvatarUrl('https://github.com/mrCoderPj04.png');
+      });
+
     const alphbets = document.getElementsByClassName('hero__alphabet');
-    for (let i = 0; i <= alphbets.length; i++) {
+    for (let i = 0; i < alphbets.length; i++) {
       alphbets[i]?.addEventListener('animationend', function () {
         alphbets[i].classList.remove('alphabet-animated');
       });
@@ -96,9 +110,7 @@ const Hero = () => {
                 data-aos="zoom-out-down"
                 data-aos-delay="2000"
               >
-
-              
-                <span className="hero__dev-text">Developer</span>
+                <span className="hero__dev-text">& AI Engineer</span>
               </span>
             </p>
             <div
@@ -107,21 +119,20 @@ const Hero = () => {
               data-aos-delay="2000"
             >
               <p>
-                I'm a passionate and responsible{' '}
-                <span>front-end developer</span>, with more than 1.5 years of
-                experience. Skilled in developing highly responsive websites and
-                mobile apps with elegant and efficient code.
+                Senior AI Engineer & <span>Full-Stack Developer</span> with 3+ years of experience building high-performance microservices, interactive dashboards, enterprise web applications, and AI integrations.
               </p>
             </div>
 
             <div className="hero__buttons">
               <a
                 className="hero__know-btn"
-                href="https://drive.google.com/file/d/1zqsTUV8wOKdfDXz5WXSD0pLo-O9-wgqD/view?usp=sharing"
+                href="https://github.com/mrCoderPj04"
+                target="_blank"
+                rel="noreferrer"
                 data-aos="fade-up"
                 data-aos-delay="1800"
               >
-                Resume
+                GitHub Profile
               </a>
               <a
                 className="hero__contact-btn"
@@ -129,12 +140,25 @@ const Hero = () => {
                 data-aos="fade-up"
                 data-aos-delay="2000"
               >
-                Contact me
+                Contact Me
               </a>
             </div>
           </div>
           <div className="hero__image" data-aos="zoom-in" data-aos-delay="200">
-            <img src={Myself} alt="me" />
+            <img 
+              src={avatarUrl} 
+              alt="Rajkamal Singh - GitHub Profile"
+              onError={(e) => {
+                e.target.onerror = null;
+                e.target.src = Myself;
+              }}
+              style={{
+                borderRadius: '50%',
+                border: '4px solid #00ffff',
+                boxShadow: '0 0 25px rgba(0, 255, 255, 0.6), 0 0 45px rgba(121, 40, 202, 0.4)',
+                objectFit: 'cover'
+              }}
+            />
           </div>
         </div>
       </div>
@@ -143,3 +167,4 @@ const Hero = () => {
 };
 
 export default Hero;
+
